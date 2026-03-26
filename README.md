@@ -8,7 +8,7 @@ This folder contains a basic template to help get you started on your own q5play
 
 `favicon.png` - the icon for the web page, which appears on the browser tab  
 `index.html` - the webpage that runs your sketch.js code  
-`jsconfig.json` - a file that enables auto-complete and hover documentation for q5play in code editors like Visual Studio Code  
+`jsconfig.json` - a file that enables inline documentation for q5play in code editors like Visual Studio Code  
 `sketch.js` - write your code in the sketch file
 
 ## Getting Started

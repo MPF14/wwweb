@@ -19,7 +19,7 @@ Use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwic
 
 For offline use, install [bun](https://bun.sh/) or [npm](https://nodejs.org). Then in the file menu hover over "Terminal" and select "New Terminal". In your q5play project folder run `bun i` to install the q5, box2d3-wasm, and q5play packages.
 
-Note that to participate in q5play game jams your project must use the latest version of q5play. Use `bun up` or `npm up` to update packages to the latest versions.
+Note that to participate in q5play game jams your project must use the latest version of q5play. Use `bun update` or `npm up` to update packages to the latest versions.
 
 ## Read me, Read me!
 

@@ -2,27 +2,24 @@ await Canvas();
 world.gravity.y = 10;
 
 let ball = new Sprite();
-ball.x = -200;
-ball.y = -200;
 ball.diameter = 50;
+ball.img = '🤪';
 
 let groundA = new Sprite();
 groundA.x = -120;
-groundA.width = 200;
-groundA.rotation = 20;
+groundA.width = 220;
+groundA.rotation = 30;
 groundA.physics = STATIC;
 
 let groundB = new Sprite();
 groundB.x = 120;
-groundB.width = 200;
-groundB.rotation = -20;
+groundB.width = 220;
+groundB.rotation = -30;
 groundB.physics = STATIC;
 
 q5.update = function () {
 	background('skyblue');
-
-	textAlign(CENTER);
-	text('click to jump!', 0, -100);
+	text('click to jump!', 0, -50);
 
 	if (mouse.presses()) ball.vel.y = -5;
 };
